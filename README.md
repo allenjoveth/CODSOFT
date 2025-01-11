@@ -1,5 +1,27 @@
 # TASK 1: Credit Card Fraud Detection ##
 
+
+## AIM:
+To write a program to  Predict the credit card fraud detection.
+
+## Equipments Required:
+Hardware – PCs
+Anaconda – Python 3.7 Installation / Jupyter Notebook
+
+## Algorithm:
+
+i) Load the dataset, check for missing values, and apply scaling to numerical features.
+
+ii) Balance the dataset using oversampling, undersampling, or class weights.
+
+iii) Split the data into training (80%) and testing (20%) sets.
+
+iv) Train multiple models (Logistic Regression, Decision Trees, Random Forest, SVM).
+
+v) Evaluate the models using accuracy, confusion matrix, and classification report.
+
+vi) Predict transaction status and optionally deploy the model for real-time use.
+
 ### Import Libraries:
 
 import numpy as np
@@ -173,3 +195,6 @@ test_predictions = logistic_model.predict(X_test)
 print("Logistic Regression - Accuracy on Test Data:", round(accuracy_score(y_test, test_predictions), 3))
 print("Classification Report:\n", classification_report(y_test, test_predictions))
 
+##Result:
+
+Thus the program to  Predict the credit card fraud detection is written and verified using python programming.
