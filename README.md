@@ -1,6 +1,6 @@
-## TASK 1: Credit Card Fraud Detection ##
+# TASK 1: Credit Card Fraud Detection ##
 
-# Import Libraries
+### Import Libraries 
 
 import numpy as np
 import pandas as pd
